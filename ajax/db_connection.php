@@ -17,9 +17,9 @@
 /**
  * Connection variables 
  */
-$host = "localhost";                                    // MySQL host name eg. localhost
-$user = "root";                                         // MySQL user. eg. root
-$password = "";                                         // MySQL user password 
+$host = "binks.copf4jptlzz4.us-east-2.rds.amazonaws.com";                                    // MySQL host name eg. localhost
+$user = "admin";                                         // MySQL user. eg. root
+$password = "B2o93600";                                         // MySQL user password 
 $database = "crud_test";                                 // MySQL Database name
 
 $con = new mysqli($host, $user, $password, $database);  // Connect to MySQL Database
